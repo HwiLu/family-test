@@ -1,0 +1,54 @@
+
+.contain {
+  background: #FFFFFF;
+  font-size: 30rpx;
+}
+.contain .text {
+  height: 220rpx;
+}
+.contain .row {
+  border-bottom: 2rpx #E8E8E8 solid;
+  padding: 10rpx 30rpx;
+}
+.contain .row .name {
+  width: 80%;
+  height: 80rpx;
+  line-height: 80rpx;
+}
+.contain .row .input {
+  width: 100%;
+  height: 170rpx;
+  font-size: 28rpx;
+  padding-top: 10rpx;
+}
+.contain .row .word-count {
+  float: right;
+  color: #808080;
+}
+.contain .row .img-count {
+  float: right;
+  line-height: 80rpx;
+  color: #808080;
+}
+.contain .row .add-img {
+  width: 160rpx;
+  height: 160rpx;
+}
+.contain .row .img {
+  width: 132rpx;
+  height: 132rpx;
+  margin-bottom: 14rpx;
+  margin-right: 20rpx;
+}
+.contain .row .wechat-input {
+  font-size: 28rpx;
+}
+._button {
+  margin: 40rpx auto;
+  width: 90%;
+  border-radius: 10rpx;
+  background: #EA5149;
+  font-size: 32rpx;
+  color: #FFFFFF;
+  font-weight: bold;
+}

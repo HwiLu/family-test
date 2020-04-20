@@ -1,0 +1,17 @@
+<import src="/components/loginWindow.vue.wxml" /><template name="6809c0c0">
+  <view class="_div data-v-142681a7">
+    <view wx:if="{{loginShow}}" class="_div data-v-142681a7"><template bindchangeShow="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}" data="{{...$root[$kk+'0'], $root}}" is="9f38260c"></template></view>
+    <view class="_div data-v-142681a7 show">
+      <view class="_div data-v-142681a7 mark-text">当前分数</view>
+      <view class="_div data-v-142681a7 mark">{{mark}}</view>
+      <view class="_div data-v-142681a7 row">
+        <view class="_div data-v-142681a7 button right" bindtap="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}">+1</view>
+        <view class="_div data-v-142681a7 button left" bindtap="handleProxy" data-eventid="{{'2'}}" data-comkey="{{$k}}">-1</view>
+      </view>
+      <view class="_div data-v-142681a7 row">
+        <view class="_div data-v-142681a7 button right" bindtap="handleProxy" data-eventid="{{'3'}}" data-comkey="{{$k}}">+5</view>
+        <view class="_div data-v-142681a7 button left" bindtap="handleProxy" data-eventid="{{'4'}}" data-comkey="{{$k}}">-5</view>
+      </view>
+    </view>
+  </view>
+</template>

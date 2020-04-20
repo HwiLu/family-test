@@ -1,0 +1,43 @@
+{
+  "pages": [
+	"pages/index/main",
+	"pages/me/main",
+	"pages/record/main",
+
+	"pages/guide/main",
+	"pages/opinion/main"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#eee",
+    "navigationBarTitleText": "家庭评分",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar":{
+  	"list":[
+  		{
+  			"text": "我家",
+  			"pagePath": "pages/index/main",
+  			"iconPath": "static/images/home.png",
+  			"selectedIconPath": "static/images/home-selected.png"
+
+		  },
+		{
+			"text": "记录",
+			"pagePath": "pages/record/main",
+			"iconPath": "static/images/record.png",
+			"selectedIconPath": "static/images/record-selected.png"
+
+		},
+  		{
+  			"text": "个人",
+  			"pagePath": "pages/me/main",
+  			"iconPath": "static/images/me.png",
+  			"selectedIconPath": "static/images/me-selected.png"
+
+		  }
+
+  	]
+  }
+}

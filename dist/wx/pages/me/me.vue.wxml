@@ -1,0 +1,28 @@
+<template name="192e53cc">
+  <view class="_div data-v-be73df7e">
+    <view class="_div data-v-be73df7e top">
+      <view class="_div data-v-be73df7e userinfo">
+        <image src="{{userinfo.avatarUrl}}" alt class="_img data-v-be73df7e"></image>
+      </view>
+      <view class="_div data-v-be73df7e name"><label class="_label data-v-be73df7e">{{userinfo.nickName}}</label>
+        <view class="_p data-v-be73df7e notice">{{quote}}</view>
+      </view>
+    </view>
+    <view class="_div data-v-be73df7e contain">
+      <view class="_div data-v-be73df7e row" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}"><label class="_label data-v-be73df7e left">
+          <image class="_img data-v-be73df7e img" src="/static/images/homework.png"></image>
+        </label> <label class="_label data-v-be73df7e name">  操作指引</label> <label class="_label data-v-be73df7e right">></label></view>
+      <view class="_div data-v-be73df7e row"><label class="_label data-v-be73df7e left">
+          <image class="_img data-v-be73df7e img" src="/static/images/classroom.png"></image>
+        </label> <label class="_label data-v-be73df7e name">  小程序开发实战课程</label> <label class="_label data-v-be73df7e right">></label></view>
+    </view>
+    <view class="_div data-v-be73df7e contain">
+      <view class="_div data-v-be73df7e row"><label class="_label data-v-be73df7e left">
+          <image class="_img data-v-be73df7e img" src="/static/images/delete.png"></image>
+        </label> <label class="_label data-v-be73df7e name">  清空记录</label> <label class="_label data-v-be73df7e right"> > </label></view>
+      <view class="_div data-v-be73df7e row" bindtap="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}"><label class="_label data-v-be73df7e left">
+          <image class="_img data-v-be73df7e img" src="/static/images/approval.png"></image>
+        </label> <label class="_label data-v-be73df7e name">  意见反馈</label> <label class="_label data-v-be73df7e right"> > </label></view>
+    </view>
+  </view>
+</template>

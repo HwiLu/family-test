@@ -1,0 +1,18 @@
+<template name="9f38260c">
+  <view class="_div data-v-626ea473">
+    <view class="_div data-v-626ea473 modal-mask"></view>
+    <view class="_div data-v-626ea473 modal-dialog">
+      <view class="_div data-v-626ea473 modal-content">
+        <image class="_img data-v-626ea473 img" src="/static/images/littleTip-huang.jpg"></image>
+        <view class="_div data-v-626ea473 content-text">
+          <view class="_p data-v-626ea473 key-bold">真自律是一款自律神器。</view>
+          <view class="_p data-v-626ea473 key-bold">将生活想象成通关打怪，打败自己的心魔加分，被心魔打败减分。</view>
+          <view class="_p data-v-626ea473 little-tip">举个例子：</view>
+          <view class="_p data-v-626ea473 little-content">午饭忍住没有吃麻辣烫，吃的绿色蔬菜，加5分；</view>
+          <view class="_p data-v-626ea473 little-content"> 但是晚饭还是没有忍住T_T，罪恶罪恶，减10分。 </view>
+        </view>
+      </view>
+      <view class="_div data-v-626ea473 modal-footer"><button open-type="getUserInfo" lang="zh_CN" class="_button data-v-626ea473 btn" bindgetuserinfo="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">授权登录</button></view>
+    </view>
+  </view>
+</template>

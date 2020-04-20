@@ -1,0 +1,41 @@
+
+.instruction .title {
+  background: #feb500;
+  border-radius: 16rpx;
+  font-size: 32rpx;
+}
+.instruction .title .img {
+  width: 100%;
+  height: 240rpx;
+}
+.instruction .title .content-title {
+  padding: 8rpx 40rpx 20rpx 40rpx;
+}
+.instruction .content {
+  padding: 8rpx 30rpx;
+  font-size: 32rpx;
+  font-weight: bold;
+}
+.instruction .little-tip {
+  padding: 30rpx 30rpx 6rpx 30rpx;
+  font-size: 30rpx;
+  font-weight: bold;
+  color: #EA5149;
+}
+.instruction .tip {
+  font-size: 30rpx;
+  font-weight: normal;
+}
+.instruction .tip .point {
+  color: #feb600;
+}
+.instruction .prompts {
+  font-size: 30rpx;
+}
+.instruction .index-img {
+  display: block;
+  margin: 20rpx auto;
+  height: 1120rpx;
+  border-radius: 20rpx;
+  margin-bottom: 60rpx;
+}

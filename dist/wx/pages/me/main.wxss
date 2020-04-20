@@ -1,0 +1,71 @@
+
+.contain {
+  margin-top: 20rpx;
+  background: #FFFFFF;
+  font-size: 30rpx;
+}
+.contain .row {
+  padding: 0 36rpx;
+  border-bottom: 2rpx #E8E8E8 solid;
+  height: 110rpx;
+  line-height: 110rpx;
+}
+.contain .row .img {
+  float: left;
+  width: 40rpx;
+  height: 40rpx;
+  padding-top: 32rpx;
+}
+.contain .row .name {
+  float: left;
+}
+.contain .right {
+  float: right;
+  color: #C8C8C8;
+  line-height: 110rpx;
+}
+.contain .left {
+  width: 80%;
+}
+.top {
+  height: 160rpx;
+  width: 100%;
+  background: #EA5149;
+  padding-top: 60rpx;
+  display: block;
+}
+.top .userinfo {
+  padding-bottom: 10rpx;
+  float: left;
+}
+.top .userinfo ._img {
+  width: 120rpx;
+  height: 120rpx;
+  margin: 10rpx;
+  border-radius: 2rpx;
+  border: 2rpx #D0D0D0 solid;
+}
+.top .name {
+  padding-top: 60rpx;
+  padding-left: 10rpx;
+  color: #FFFFFF;
+  font-size: 32rpx;
+  float: left;
+}
+.top .name .underline {
+  border: 2rpx solid #ffffff;
+  border-radius: 10rpx;
+  text-align: center;
+}
+.top .name .notice {
+  color: #D8D8D8;
+  font-size: 24rpx;
+}
+.top .name .a-line {
+  background: #EA5149;
+  border: none;
+  display: inline;
+  font-size: 32rpx;
+  color: #FFFFFF;
+  text-decoration: underline;
+}
